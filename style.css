@@ -80,3 +80,33 @@ section {
     font-weight: bold;
     cursor: pointer;
 }
+
+/* Estilo para las secciones de los tablones */
+.tablon {
+    background-color: #ffffff;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilo para cada publicación o tarjeta dentro del foro */
+.post {
+    background-color: #f8fafc;
+    border-left: 4px solid #2563eb;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 0 4px 4px 0;
+}
+
+.post h3 {
+    margin: 0 0 10px 0;
+    color: #1e293b;
+    font-size: 18px;
+}
+
+.post p {
+    margin: 0;
+    color: #475569;
+    line-height: 1.5;
+}
