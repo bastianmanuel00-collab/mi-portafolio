@@ -34,6 +34,7 @@ h2 {
 
 section {
     max-width: 800px;
+    width: 90%;
     margin: 0px auto;
     padding: 20px;
 }
