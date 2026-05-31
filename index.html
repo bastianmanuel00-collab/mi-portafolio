@@ -3,85 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
+    <title>Bastian — Portafolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <nav>
     <ul>
-        <li><a href="#musica">/musica/</a></li>
-        <li><a href="#juegos">/juegos/</a></li>
-        <li><a href="#peliculas">/peliculas/</a></li>
-        <li><a href="#contacto">/contacto/</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
     </ul>
 </nav>
 
 <!-- HERO -->
 <div class="hero">
-    <h1>Bienvenido a mi Portafolio</h1>
-    <p>Desarrollador Web</p>
-    <span class="badge">HTML · CSS · JavaScript</span>
+    <div class="avatar">👨‍💻</div>
+    <h1>Hola, soy Bastian</h1>
+    <p>Desarrollador Web · HTML · CSS · JavaScript</p>
+    <a href="https://github.com/bastianmanuel00-collab" target="_blank" class="btn-github">
+        Ver mi GitHub
+    </a>
 </div>
 
 <!-- SOBRE MI -->
-<section>
+<section id="sobre-mi">
     <h2>Sobre mí</h2>
-    <div class="sobre-mi-card">
-        <div class="avatar">👨‍💻</div>
-        <p>Soy un desarrollador web con experiencia en HTML, CSS y JavaScript. Me apasiona crear sitios web atractivos y funcionales.</p>
+    <div class="card">
+        <p>Soy un desarrollador web apasionado por crear sitios web atractivos y funcionales. Actualmente aprendiendo y construyendo proyectos con HTML, CSS y JavaScript.</p>
+        <div class="skills">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">Git</span>
+        </div>
     </div>
 </section>
 
-<!-- MUSICA -->
-<section id="musica" class="tablon">
-    <h2>/musica/ - Mis Favoritos</h2>
-    <div class="post">
-        <h3>🎧 Álbum: Random Access Memories - Daft Punk</h3>
-        <p><strong>Mi comentario:</strong> Una obra maestra...</p>
-    </div>
-</section>
+<!-- PROYECTOS -->
+<section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyectos-grid">
+        <div class="proyecto-card">
+            <div class="proyecto-icono">🌐</div>
+            <h3>Mi Portafolio</h3>
+            <p>Sitio web personal con servidor Express, sistema de comentarios y diseño responsive. Mi primer proyecto full-stack.</p>
+            <div class="proyecto-tags">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Node.js</span>
+            </div>
+            <a href="https://github.com/bastianmanuel00-collab/mi-portafolio" target="_blank" class="btn-proyecto">
+                Ver en GitHub →
+            </a>
+        </div>
 
-<!-- JUEGOS -->
-<section id="juegos" class="tablon">
-    <h2>/juegos/ - Lo que estoy jugando</h2>
-    <div class="post">
-        <h3>🎮 Juego: Elden Ring</h3>
-        <p><strong>Mi comentario:</strong> Increíble mundo abierto...</p>
-    </div>
-</section>
-
-<!-- PELICULAS -->
-<section id="peliculas" class="tablon">
-    <h2>/peliculas/ - Lo que estoy viendo</h2>
-    <div class="post">
-        <h3>🎬 Película: Interestelar</h3>
-        <p><strong>Mi comentario:</strong> Una de las mejores películas de ciencia ficción...</p>
+        <!-- Tarjeta placeholder para próximo proyecto -->
+        <div class="proyecto-card placeholder">
+            <div class="proyecto-icono">🚀</div>
+            <h3>Próximo proyecto</h3>
+            <p>Aquí irá tu próximo proyecto. ¡Sigue construyendo!</p>
+        </div>
     </div>
 </section>
 
 <!-- CONTACTO -->
 <section id="contacto">
     <h2>Contacto</h2>
-    <form id="formulario-contacto">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" required placeholder="Tu nombre aquí">
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" required placeholder="Tu email aquí">
-
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" required placeholder="Tu mensaje aquí"></textarea>
-
-        <button type="submit">Enviar</button>
-    </form>
+    <div class="card contacto-card">
+        <p>¿Tienes algún proyecto en mente o quieres trabajar juntos? Encuéntrame en GitHub.</p>
+        <a href="https://github.com/bastianmanuel00-collab" target="_blank" class="btn-github">
+            GitHub →
+        </a>
+    </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
     <p>Hecho por Bastian · <a href="https://github.com/bastianmanuel00-collab" target="_blank">GitHub</a></p>
 </footer>
 
-<script src="index.js"></script>
 </body>
 </html>
