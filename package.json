@@ -1,8 +1,11 @@
 {
   "name": "mi-portafolio",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }

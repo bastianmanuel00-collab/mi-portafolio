@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <nav>
     <ul>
         <li><a href="#musica">/musica/</a></li>
@@ -15,40 +16,72 @@
         <li><a href="#contacto">/contacto/</a></li>
     </ul>
 </nav>
-    <h1>Bienvenido a  mi Portafolio</h1>
-    <section>
-        <h2>Sobre mi</h2>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Bienvenido a mi Portafolio</h1>
+    <p>Desarrollador Web</p>
+    <span class="badge">HTML · CSS · JavaScript</span>
+</div>
+
+<!-- SOBRE MI -->
+<section>
+    <h2>Sobre mí</h2>
+    <div class="sobre-mi-card">
+        <div class="avatar">👨‍💻</div>
         <p>Soy un desarrollador web con experiencia en HTML, CSS y JavaScript. Me apasiona crear sitios web atractivos y funcionales.</p>
-    </section>
-        <section id="musica" class="tablon">
-        <h2>/musica/ - Mis Favoritos</h2>
-        <div class="post">
-            <h3>🎧 Álbum: Random Access Memories - Daft Punk</h3>
-            <p><strong>Mi comentario:</strong> Una obra maestra...</p>
-        </div>
-    </section>
+    </div>
+</section>
 
-    <section id="juegos" class="tablon">
-        <h2>/juegos/ - Lo que estoy jugando</h2>
-        <div class="post">
-            <h3>🎮 Juego: Elden Ring</h3>
-            <p><strong>Mi comentario:</strong> Increíble mundo abierto...</p>
-        </div>
-    </section>
+<!-- MUSICA -->
+<section id="musica" class="tablon">
+    <h2>/musica/ - Mis Favoritos</h2>
+    <div class="post">
+        <h3>🎧 Álbum: Random Access Memories - Daft Punk</h3>
+        <p><strong>Mi comentario:</strong> Una obra maestra...</p>
+    </div>
+</section>
 
-    <section>
-        <h2>Contacto</h2>
-        <form id="formulario-contacto">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" required placeholder="Tu nombre aquí">
-            <label for="email">Email:</label>
-            <input type="email" id="email" required placeholder="Tu email aquí">
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" required placeholder="Tu mensaje aquí"></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-    <p>Este es un proyecto de Portafolio</p>
-    <script src="index.js"></script>       
+<!-- JUEGOS -->
+<section id="juegos" class="tablon">
+    <h2>/juegos/ - Lo que estoy jugando</h2>
+    <div class="post">
+        <h3>🎮 Juego: Elden Ring</h3>
+        <p><strong>Mi comentario:</strong> Increíble mundo abierto...</p>
+    </div>
+</section>
+
+<!-- PELICULAS -->
+<section id="peliculas" class="tablon">
+    <h2>/peliculas/ - Lo que estoy viendo</h2>
+    <div class="post">
+        <h3>🎬 Película: Interestelar</h3>
+        <p><strong>Mi comentario:</strong> Una de las mejores películas de ciencia ficción...</p>
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+    <h2>Contacto</h2>
+    <form id="formulario-contacto">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required placeholder="Tu nombre aquí">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="Tu email aquí">
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" required placeholder="Tu mensaje aquí"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>Hecho por Bastian · <a href="https://github.com/bastianmanuel00-collab" target="_blank">GitHub</a></p>
+</footer>
+
+<script src="index.js"></script>
 </body>
 </html>
